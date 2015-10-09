@@ -2,7 +2,8 @@ Source: jiocloud-ssl-certificate
 Section: admin
 Priority: optional
 Maintainer: Soren Hansen <Soren.Hansen@ril.com>
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 8),
+               openssl
 Standards-Version: 3.9.5
 Homepage: https://github.com/JioCloud/puppet-rjil
 
